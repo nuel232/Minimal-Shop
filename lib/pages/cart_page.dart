@@ -14,7 +14,6 @@ class CartPage extends StatelessWidget {
         centerTitle: true,
       ),
       backgroundColor: Theme.of(context).colorScheme.surface,
-      drawer: MyDrawer(),
     );
   }
 }
