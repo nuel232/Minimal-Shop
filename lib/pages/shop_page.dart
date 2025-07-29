@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:minimal_shop/components/my_drawer.dart';
 import 'package:minimal_shop/components/my_product_tile.dart';
-import 'package:minimal_shop/models/porduct.dart';
 import 'package:minimal_shop/models/shop.dart';
 import 'package:provider/provider.dart';
 
@@ -10,7 +9,7 @@ class ShopPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    //access prodeuct in shop
+    //access product in shop
     final products = context.watch<Shop>().shop;
 
     return Scaffold(
@@ -23,7 +22,8 @@ class ShopPage extends StatelessWidget {
             onPressed: () {
               Navigator.pushNamed(context, '/cart_page');
             },
-            icon: Icon(Icons.shopping_cart),
+            icon: Icon(Icons.shopping_cart_outlined),
+            padding: EdgeInsets.only(right: 10),
           ),
         ],
       ),

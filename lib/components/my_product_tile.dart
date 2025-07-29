@@ -1,7 +1,5 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
-import 'package:minimal_shop/models/porduct.dart';
+import 'package:minimal_shop/models/product.dart';
 import 'package:minimal_shop/models/shop.dart';
 import 'package:provider/provider.dart';
 

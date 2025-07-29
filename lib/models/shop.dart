@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:minimal_shop/models/porduct.dart';
-import '';
+import 'package:minimal_shop/models/product.dart';
 
 class Shop extends ChangeNotifier {
   //products for sale
